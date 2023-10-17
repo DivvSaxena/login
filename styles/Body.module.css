@@ -1,0 +1,39 @@
+
+.container{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 100px;
+  max-width: 500px;
+  margin: 8em auto 0;
+  border-radius: 1em;
+  background-color: rgb(22, 22, 22);
+  }
+
+.tags{
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+  margin-bottom: 1em;
+  font-size: 1.25rem;
+  border-radius: 0.3em;
+}
+
+.btn{
+  padding: 10px;
+  font-size: 1.25rem;
+  border-radius: 0.3em;
+}
+
+.btn:hover{
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.image{
+  width: 200px;
+  margin: 0 auto ;
+  padding-bottom: 1.9em;
+}

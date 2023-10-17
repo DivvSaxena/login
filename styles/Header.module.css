@@ -1,0 +1,25 @@
+
+
+.header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  background-color: violet;
+  height: 50px;
+  width: 100%;
+  border-bottom-left-radius: 0.6em;
+  border-bottom-right-radius: 0.6em;
+}
+
+.header:hover{
+  background-color: rgb(190, 91, 190);
+}
+.heading{
+  margin: 0;
+  color: #272343;
+}
+
+.heading:hover{
+  color: #433f58;
+}
