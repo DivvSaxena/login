@@ -1,14 +1,17 @@
 'use client'
 import React , {useState, useEffect} from 'react'
+import { getFirestore } from "firebase/firestore"
 import styles from "../styles/Body.module.css"
 import { Poppins} from '@next/font/google'
 import { collection, addDoc } from "firebase/firestore"
-import db from "../pages/firebase"
+import app from "./firebase"
 
 const poppins = Poppins({
   subsets: ['latin'],
   weight: ['400'],
 })
+
+const db = getFirestore(app)
 
 export default function Body(){
   const [newItem , setNewItem] = useState({email: '',password: ''})
@@ -33,8 +36,8 @@ export default function Body(){
 
 
   return (
-    <div class={`${styles.container} ${poppins.className}`}>
-    <form>
+    <div className={`${styles.container} ${poppins.className}`}>
+    <form className={styles.form}>
        <img src="https://static.wixstatic.com/media/2f6666_4f954d044b224eb29d7f2ff49d0fbb8b~mv2.png/v1/fill/w_269,h_58,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo%203.png" className={styles.image}/>
        <input 
         type="email"
