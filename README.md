@@ -40,4 +40,4 @@ Feel free to contribute to this project by opening issues and pull requests.
 This project is licensed under the [MIT] License.
 
 
-Please replace `[Your License Name]` with the actual license you want to use, and be sure to provide detailed information on the issue with fetching data from OpenAI, including potential solutions. Additionally, consider adding information on the project's folder structure, file organization, and any relevant contact information for contributors or users.
+Please replace `[LICENSE]` with the actual license you want to use, and be sure to provide detailed information on the issue with fetching data from OpenAI, including potential solutions. Additionally, consider adding information on the project's folder structure, file organization, and any relevant contact information for contributors or users.
