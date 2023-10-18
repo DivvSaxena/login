@@ -1,6 +1,6 @@
 # Login Project (Task)
 
-This project is a simple login page created using Next.js and integrated with Firebase for backend functionality. When users click on the submit button, their data is sent to Firestore for storage. The login page is designed using custom design skills and is deployed on Vercel. Please note that there's an issue with fetching data from OpenAI, which needs to be addressed.
+This project is a simple login page created using Next.js and integrated with Firebase for backend functionality. When users click on the submit button, their data is sent to Firestore for storage. The login page is designed using custom design skills and is deployed on Vercel. Please note that there's an issue with fetching data from OpenAI, which needs to be addressed I wasn't able to add that feature.
 
 ## Features:
 
